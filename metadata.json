@@ -1,0 +1,6 @@
+{
+  "name": "آوان",
+  "description": "معلم خصوصی و هوشمند پیانو با ارزیابی نوازندگی و برنامه تمرینی اختصاصی",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,81 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Piano body outline -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M24,38 L84,38 C86.2,38 88,39.8 88,42 L88,72 C88,74.2 86.2,76 84,76 L24,76 C21.8,76 20,74.2 20,72 L20,42 C20,39.8 21.8,38 24,38 Z" />
+
+    <!-- White keys -->
+    <!-- Key 1 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M23,40 L31,40 L31,74 L23,74 Z" />
+    <!-- Key 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32.5,40 L40.5,40 L40.5,74 L32.5,74 Z" />
+    <!-- Key 3 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M42,40 L50,40 L50,74 L42,74 Z" />
+    <!-- Key 4 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M51.5,40 L59.5,40 L59.5,74 L51.5,74 Z" />
+    <!-- Key 5 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M61,40 L69,40 L69,74 L61,74 Z" />
+    <!-- Key 6 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70.5,40 L78.5,40 L78.5,74 L70.5,74 Z" />
+    <!-- Key 7 -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M80,40 L85,40 L85,74 L80,74 Z" />
+
+    <!-- Black keys -->
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M29,40 L34,40 L34,61 L29,61 Z" />
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M38.5,40 L43.5,40 L43.5,61 L38.5,61 Z" />
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M57.5,40 L62.5,40 L62.5,61 L57.5,61 Z" />
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M67,40 L72,40 L72,61 L67,61 Z" />
+    <path
+        android:fillColor="#090D16"
+        android:pathData="M76.5,40 L81.5,40 L81.5,61 L76.5,61 Z" />
+
+    <!-- Gold Accent Bar on Piano Top -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M22,38 L86,38 L86,40 L22,40 Z" />
+
+    <!-- Musical Eighth Note floating above -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M64,22 C64,22 74,20 78,24 L78,32 C75.5,30 71.5,30.5 70,32.5 C68.3,34.8 69.5,37.8 72.8,38.2 C75.8,38.5 78.5,36.5 78.5,33.5 L78.5,25.5 L64,28.5 L64,36 C61.5,34 57.5,34.5 56,36.5 C54.3,38.8 55.5,41.8 58.8,42.2 C61.8,42.5 64.5,40.5 64.5,37.5 Z" />
+
+    <!-- Sound waves emitting -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M84,24 C87,26 87,31 84,33" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M88,21 C92,25 92,34 88,38" />
+</vector>
