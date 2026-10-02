@@ -20,22 +20,11 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Find project files
-        run: |
-          echo "Gradle files:"
-          find . -maxdepth 4 -type f \( -name "gradlew" -o -name "build.gradle" -o -name "build.gradle.kts" \)
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
 
       - name: Build APK
-        run: |
-          chmod +x */gradlew 2>/dev/null || true
-          if [ -f gradlew ]; then
-            ./gradlew assembleDebug
-          elif [ -f */gradlew ]; then
-            $(find . -maxdepth 2 -name gradlew -type f | head -1) assembleDebug
-          else
-            echo "ERROR: Gradle wrapper not found"
-            exit 1
-          fi
+        run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
